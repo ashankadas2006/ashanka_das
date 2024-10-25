@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #1f5f76; /* Light beige from palette */
+    color: #ffffff; /* White text color */
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+header {
+    background-color: #3d80a4; /* Deep red from palette */
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #ffffff; /* White for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em; /* Larger font size for links */
+    transition: background 0.3s ,color 0.3s;
+}
+
+nav a:hover {
+    color: #3a4ac3; /* Vibrant red on hover */
+}
+
+h1, h2, h3 {
+    color: #ffffff; /* White for headings */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px; /* Increased padding for more impact */
+    background: linear-gradient(rgba(43, 86, 172, 0.447), rgba(68, 91, 206, 0.408)), url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg') no-repeat center center/cover;
+    color: #ffffff; /* White text color for hero section */
+}
+
+.hero h1 {
+    color: #ffffff; /* Keep text color white */
+}
+
+.profile-pic {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 7px solid #ffffff; /* White border */
+}
+
+.background-pic, .project-pic {
+    max-width: 50%;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #669bbc; /* Light blue for sections */
+    transition: all 0.5s ease-out;
+    font-size: 1.1em; /* Larger font size */
+    color: #ffffff; /* White text for sections */
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1f5f76; /* Deep red from palette */
+    color: #ffffff; /* White text for footer */
+    font-size: 1.2em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
